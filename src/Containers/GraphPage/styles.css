@@ -1,0 +1,23 @@
+.graphPage{
+    margin: 0 70px 70px 70px;
+  }
+  .graphHeader{
+  margin-bottom: 30px;
+  text-align: center;
+  }
+  .graphHeader h2{
+    font-size: 1.5rem;
+    color: rgba(55,65,81);
+  }
+  .graphButton{
+    height: 30px;
+    background-color: white;
+    border: 1px solid grey;
+  }
+  .selectedGraphButton{
+    height: 30px;
+    background-color: rgba(229,231,235,);
+  }
+  .graphButtons{
+    margin-left: 45px;
+  }

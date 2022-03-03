@@ -1,0 +1,152 @@
+
+.overFlowX{
+    overflow-x: auto;
+}
+.sortedTable{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableHead{   
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid #dee2e6;
+  border-bottom: 2px solid #dee2e6;
+
+}
+
+table thead th{
+    position: sticky;
+    top: 0;
+    z-index:1;
+    background-color: white;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  .eachTableHeading{
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+    height: 45px;
+    text-align: right;
+    color: #4a4a4a;
+    font-size: .8rem;
+    font-weight: 700;
+    padding: 5px 8px;
+    
+  }
+
+  .nameTableHeading{
+      min-width: 200px;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 2px solid #dee2e6;
+    height: 45px;
+    color: #4a4a4a;
+    text-align: left;
+    font-size: .8rem;
+    font-weight: 700;
+    padding: 5px 8px;
+    padding-left: 25px;
+
+
+  }
+  .rankTableHeading{
+ text-align: left;     
+}
+  .rankTableCell{
+    padding: 5px 8px 5px 0px;
+    text-align: right;
+
+  }
+  
+  .coinTableCell{
+    text-align: left;
+    padding: 5px 8px;
+    border-top: 1px solid #dee2e6;
+    font-size: 14px;
+    height: 49px;
+    padding-left: 25px;
+    width: 230px;
+
+  }
+  .coinCell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+    text-align: left;
+    }
+  .coinCellImageName{
+      display: flex;
+      width: inherit;
+      align-items: center;
+  }
+  .coinName{
+      text-align: left;
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #333;
+  }
+  .coinSymbol{
+text-align: left;
+width: 50px;
+font-weight: 400;
+  font-size: .7rem;
+  }
+
+  .eachTableCell{
+    text-align: right;
+    padding: 5px 8px;
+    border-top: 1px solid #dee2e6;
+    font-size: 14px;
+    height: 49px;
+  }
+  .priceTableCell{
+
+      width: 250px;
+      text-align: right;
+      padding: 5px 8px;
+      border-top: 1px solid #dee2e6;
+      font-size: 14px;
+      height: 49px;
+  }
+.cell24h{
+    padding: 5px 8px;
+    font-size: 14px;
+
+}
+
+.cell24hPositive{
+    color:green;
+    text-align: right;
+}
+.cell24hNegative{
+    text-align: right;
+    color: red;
+}
+
+.buyButton{
+    border: 0em;
+    padding: .5ex 1ch;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    cursor: pointer;
+    color: #69a235;
+    border-radius: 4px;
+    background-color: rgba(179,207,145,.2);
+}
+.chartsButton{
+  padding: .5ex 1ch;
+  font-size: 12px;
+  font-weight: 500;
+  height: 30px;
+  width: 80px;
+border-radius: 4px;
+background-color: rgba(142, 142, 150, 0.2);
+border: 1px;
+
+}

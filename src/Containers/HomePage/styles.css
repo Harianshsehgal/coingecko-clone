@@ -1,0 +1,13 @@
+.home{
+    margin: 0 70px 70px 70px;
+    }
+.homeHeading{
+    font-size: 1.5rem;
+    color: rgba(55,65,81);
+}
+
+@media screen and (max-width: 900px) {
+    .home{
+        margin: 0;
+        }
+  }
